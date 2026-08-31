@@ -1,76 +1,77 @@
 
-# EMPTYCHAIR (DIALÉCTICA AI): ESPECIFICACIÓN Y DISEÑO CONCEPTUAL
+# EMPTYCHAIR (DIALECTICA AI): CONCEPTUAL DESIGN AND SPECIFICATION
 
-**Autor / Creador del Concepto:** Marcos Antonio Ortiz Figueira (Arkadios)  
-**Fecha de Registro:** 21 de agosto de 2026  
-**Licencia:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
+**Author / Concept Creator:** Marcos Antonio Ortiz Figueira (Arkadios)  
+**Registration Date:** August 21, 2026  
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 
-> **Declaración de Intención:** Este concepto se libera como una contribución abierta a la comunidad tecnológica y de inteligencia artificial. Cualquier desarrollador, empresa u organización tiene autorización para implementar, modificar, desplegar o comercializar este sistema sin costo alguno, siempre que se conserve el crédito explícito al autor original del concepto: Marcos Antonio Ortiz Figueira.
+> **Statement of Intent:** This concept is released as an open contribution to the tech and AI community. Any developer, company, or organization is authorized to implement, modify, deploy, or commercialize this system at no cost, provided explicit credit is given to the original concept author: Marcos Antonio Ortiz Figueira.
 
 ---
 
-## 1. Declaración de Origen y Manifiesto
+## 1. Statement of Origin and Manifesto
 
-En la era digital actual, las métricas de vanidad, la gratificación inmediata y el contenido performativo han desplazado al mérito y al rigor analítico. Las plataformas recompensan el espectáculo y la polémica por encima de la coherencia lógica, generando dos problemas críticos:
+In today's digital age, vanity metrics, instant gratification, and performative content have displaced merit and analytical rigor. Platforms reward spectacle and controversy over logical coherence, generating two critical problems:
 
-*   **La Impotencia del Espectador Crítico:** Millones de personas consumen diariamente entrevistas, podcasts y discursos públicos donde se emiten afirmaciones erróneas, falacias lógicas o tesis sin sustento. Las secciones de comentarios tradicionales no ofrecen resolución; cualquier intento de réplica constructiva queda sepultado por el ruido, los ataques personales y los algoritmos de polarización.
-*   **La Ausencia de un Gimnasio Intelectual:** No existen herramientas accesibles donde el ciudadano común pueda auditar sus propias ideas, confrontar posturas complejas en igualdad de condiciones y entrenar su pensamiento dialéctico de forma objetiva.
+*   **The Impotence of the Critical Spectator:** Millions of people daily consume interviews, podcasts, and public speeches where erroneous claims, logical fallacies, or unsupported theses are broadcasted. Traditional comment sections offer no resolution; any attempt at constructive rebuttal is buried by noise, ad hominem attacks, and polarizing algorithms.
+*   **The Absence of an Intellectual Gym:** There are no accessible tools where everyday citizens can audit their own ideas, confront complex positions on equal footing, and train their dialectical thinking objectively.
 
-EmptyChair nace no como una red social más, sino como un motor de auditoría lógica, entrenamiento dialéctico y desahogo intelectual bajo demanda.
+EmptyChair is born not as just another social network, but as a logical auditing engine, dialectical training ground, and on-demand intellectual outlet.
 
-## 2. Definición y Propósito del Sistema
+## 2. System Definition and Purpose
 
-EmptyChair es una plataforma asistida por modelos de lenguaje grande (LLMs) que permite a los usuarios:
+EmptyChair is a platform assisted by Large Language Models (LLMs) that allows users to:
 
-1.  Extraer con precisión quirúrgica afirmaciones y tesis de material multimedia público (YouTube, Spotify, artículos).
-2.  Confrontar esas premisas en un entorno cerrado contra un clon dialéctico de la postura del emisor.
-3.  Recibir una auditoría lógica objetiva y neutral mediante un árbitro IA.
-4.  Generar fichas de veredicto compartibles y emitir pases de réplica estructurados para garantizar el derecho a la defensa.
+1.  Surgically extract claims and theses from public multimedia material (YouTube, Spotify, articles).
+2.  Confront those premises in a closed environment against a dialectical clone of the speaker's position.
+3.  Receive an objective and neutral logical audit by an AI referee.
+4.  Generate shareable verdict cards and issue structured rebuttal passes to guarantee the right to defense.
 
-## 3. Módulos Centrales de la Arquitectura
+## 3. Core Architecture Modules
 
-### A. Ingesta y Extracción Quirúrgica (Persona Engine)
-*   **Filtro de Ruido:** El usuario ingresa un enlace y define el minuto exacto donde se formula la afirmación a debatir.
-*   **Extracción de Premisas:** Mediante transcripción de voz a texto y procesamiento de lenguaje natural, el sistema aísla la tesis central, los axiomas declarados y el estilo retórico del emisor, sin recurrir a caricaturizaciones ni "hombres de paja".
-*   **Enfoque en la Tesis, no en el Individuo:** La simulación evalúa estrictamente el argumento público emitido, protegiendo la legalidad del sistema como una herramienta de crítica y análisis de discurso.
+### A. Ingestion and Surgical Extraction (Persona Engine)
+*   **Noise Filter:** The user inputs a link and defines the exact minute the claim to be debated is made.
+*   **Premise Extraction:** Using voice-to-text transcription and natural language processing, the system isolates the central thesis, stated axioms, and rhetorical style of the speaker, without resorting to caricatures or straw man arguments.
+*   **Focus on the Thesis, Not the Individual:** The simulation strictly evaluates the broadcasted public argument, protecting the system's legality as a tool for critique and discourse analysis.
 
-### B. Gimnasio Dialéctico (Debate a Ciegas)
-*   **Dinámica de Intercambio:** Formato estricto de 3 rondas (Tesis -> Refutación -> Síntesis).
-*   **Condición Adversarial:** El modelo defiende la postura con solidez y resistencia retórica, forzando al usuario a construir contraargumentos con datos y estructura formal.
+### B. Dialectical Gym (Blind Debate)
+*   **Exchange Dynamics:** Strict 3-round format (Thesis -> Rebuttal -> Synthesis).
+*   **Adversarial Condition:** The model defends the position with solidity and rhetorical resistance, forcing the user to build counterarguments with data and formal structure.
 
-### C. Árbitro IA Neutral (Autopsia Dialéctica)
-El sistema de arbitraje opera como un auditor lógico independiente y no como un censor de opiniones:
+### C. Neutral AI Referee (Dialectical Autopsy)
+The arbitration system operates as an independent logical auditor, not as an opinion censor:
 
-| Criterio de Medición | Acción de Auditoría | Penalización / Registro |
+| Measurement Criterion | Audit Action | Penalty / Record |
 | :--- | :--- | :--- |
-| **Consistencia Lógica** | Detección de falacias (ad hominem, falsa dicotomía, etc.) | Descuento en el Índice de Rigor. |
-| **Soporte Factual** | Identificación de afirmaciones sin evidencia empírica. | Marcado como "Premisa no sustentada". |
-| **Adherencia Temática** | Medición de desvío respecto a la moción original. | Advertencia por evasión del punto central. |
+| **Logical Consistency** | Detection of fallacies (ad hominem, false dichotomy, etc.) | Deduction in the Rigor Index. |
+| **Factual Support** | Identification of claims lacking empirical evidence. | Marked as "Unsupported premise". |
+| **Thematic Adherence** | Measurement of deviation from the original motion. | Warning for evading the central point. |
 
-### D. Protocolo de Pase de Réplica (Challenge Link)
-Para garantizar la simetría y el derecho de defensa:
-*   Todo debate con alta puntuación genera un enlace público verificable.
-*   El autor original aludido o cualquier miembro de la comunidad puede ingresar para refutar el veredicto bajo las mismas reglas y límites de tiempo.
-*   Las defensas se exhiben lado a lado evaluadas bajo el mismo estándar técnico.
+### D. Rebuttal Pass Protocol (Challenge Link)
+To guarantee symmetry and the right to defense:
+*   Every high-scoring debate generates a verifiable public link.
+*   The originally alluded author or any community member can enter to refute the verdict under the same rules and time limits.
+*   The defenses are displayed side-by-side and evaluated under the same technical standard.
 
-## 4. Perfil Dialéctico y Viralidad Orgánica
+## 4. Dialectical Profile and Organic Virality
 
-*   **Historial de Rivales:** Registro público de los debates realizados, diferenciando entre usuarios reales, clones de tesis por IA e insignias de figuras públicas verificadas.
-*   **Ficha de Veredicto Exportable:** Generación automática de tarjetas visuales con el puntaje de rigor (0-100), desglose de falacias y síntesis del árbitro, diseñadas para compartirse en redes sociales (X, TikTok, LinkedIn) o utilizarse por creadores en transmisiones en vivo.
+*   **Rival History:** Public record of conducted debates, differentiating between real users, AI thesis clones, and verified public figure badges.
+*   **Exportable Verdict Card:** Automatic generation of visual cards with the rigor score (0-100), fallacy breakdown, and referee synthesis, designed to be shared on social media (X, TikTok, LinkedIn) or used by creators in live streams.
 
-## 5. Pila Tecnológica Sugerida (Open Source)
+## 5. Suggested Technology Stack (Open Source)
 
-*   **Lenguajes y Backend:** Python (FastAPI), LangChain / LlamaIndex.
-*   **Transcripción:** OpenAI Whisper / yt-dlp.
-*   **Modelos de Razonamiento:** Enrutamiento modular para LLMs de alta capacidad analítica (Claude, GPT, DeepSeek).
-*   **Bases de Datos:** PostgreSQL (Supabase) para registros relacionales y ChromaDB / Qdrant para inyección vectorial RAG.
-*   **Frontend:** Next.js, TailwindCSS y Canvas API para la renderización de tarjetas de resultados.
+*   **Languages & Backend:** Python (FastAPI), LangChain / LlamaIndex.
+*   **Transcription:** OpenAI Whisper / yt-dlp.
+*   **Reasoning Models:** Modular routing for high-capacity analytical LLMs (Claude, GPT, DeepSeek).
+*   **Databases:** PostgreSQL (Supabase) for relational records and ChromaDB / Qdrant for RAG vector injection.
+*   **Frontend:** Next.js, TailwindCSS, and Canvas API for rendering result cards.
 
 ---
-*Este documento constituye la especificación conceptual original de EmptyChair / Dialéctica AI, ideada y diseñada formalmente por Marcos Antonio Ortiz Figueira (Arkadios) en agosto de 2026.*
-## 6. Contacto y Colaboración
+## 6. Contact and Collaboration
 
-Si eres desarrollador, investigador de IA o fundador y deseas profundizar en esta arquitectura o colaborar en su construcción, puedes contactarme directamente:
+If you are a developer, AI researcher, or founder and wish to dive deeper into this architecture or collaborate on building the MVP, you can contact me directly:
 
-*   **Email:** [proyecto.zorax@gmail.com]
+*   **Email:** [Escribe tu correo electrónico aquí]
 *   **GitHub:** https://github.com/l2zorax
+
+*This document constitutes the original conceptual specification of EmptyChair / Dialéctica AI, formally ideated and designed by Marcos Antonio Ortiz Figueira (Arkadios) in August 2026.*
